@@ -10,6 +10,8 @@ public class AppTest {
     public void test_fail(){
         App app = new App();
         app.doSomething();
+        //fail();
+        //assertTrue(true);
         fail();
     }
 }
