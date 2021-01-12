@@ -7,7 +7,7 @@ public class App {
     public void doSomething(){
         String f = getStringorNull();
         System.out.println(f);
-        "".equals(f);
+        //"".equals(f);
     }
 
     @CheckForNull
